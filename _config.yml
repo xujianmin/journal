@@ -27,8 +27,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xujianmin
 github_username:  xujianmin
 
-# Build settings
+# Just the Docs theme settings
 theme: just-the-docs
+
+# Navigation structure
+nav:
+  - Home: /
+  - About: /about
+  - Posts: /posts
+
+# Aux links (top right)
+aux_links:
+  "GitHub Repository":
+    - "//github.com/xujianmin/journal"
+
+# Build settings
 plugins:
   - jekyll-feed
 
