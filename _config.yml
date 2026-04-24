@@ -41,14 +41,6 @@ aux_links:
   "GitHub Repository":
     - "//github.com/xujianmin/journal"
 
-# Twikoo Comments Configuration
-# 1. Set twikoo_enabled: true
-# 2. Create an app at https://www.leancloud.app
-# 3. Get your AppID (envId) and update twikoo_envId
-twikoo_enabled: false
-twikoo_envId: "YOUR_ENV_ID"
-twikoo_region: "ap-guangzhou"
-
 # Build settings
 plugins:
   - jekyll-feed
